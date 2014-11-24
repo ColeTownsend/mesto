@@ -2075,6 +2075,18 @@ img {
 .bottom-4 {
   bottom: 4rem; }
 
+.top-6 {
+  top: 6rem; }
+
+.left-6 {
+  left: 6rem; }
+
+.right-6 {
+  right: 6rem; }
+
+.bottom-6 {
+  bottom: 6rem; }
+
 /* Top Percentage based scale */
 .top-auto {
   top: auto; }
