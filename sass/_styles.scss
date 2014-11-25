@@ -13,8 +13,6 @@
 }
 
 .bg {
-  background-size: cover;
-  background-position: center center;
   &.bg--ombre {
     background: -webkit-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* Chrome 10+, Saf5.1+ */
     background:    -moz-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* FF3.6+ */
@@ -22,12 +20,4 @@
     background:      -o-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* Opera 11.10+ */
     background:         linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* W3C */
   }
-  &.bg--mesto {
-    background-image: url('../img/mesto-v3.gif');
-  }
-}
-
-
-.txt-sh {
-  text-shadow: 1px 1px 2px rgba(0,0,0,.5);
 }
