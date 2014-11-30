@@ -16,13 +16,14 @@ $light-silver: #aaa;
 $moon-gray: #ccc;
 $light-gray: #eee;
 $near-white: #f4f4f4;
+$not-quite-white: #f8f8f8;
 $white: #fff;
 
-$blue: #0074D9;
-$light-blue: #64a8ff;
-$lightest-blue: #a2dfff;
-$dark-blue: #0045a1;
-$darkest-blue: #002f86;
+$blue: #4152FF;
+$light-blue: lighten($blue, 5);
+$lightest-blue: lighten($blue, 10);
+$dark-blue: darken($blue, 5);
+$darkest-blue: darken($blue, 10);
 
 $yellow: #fff93c;
 $light-yellow: #fffa60;
